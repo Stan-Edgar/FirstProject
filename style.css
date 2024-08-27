@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.nav {
+    display: flex;
+    height: 70px;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0 200px;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.nav .links {
+
+    display: flex;
+    gap: 20px;
+    font-weight: 200;
+    
+}
+
+.links:hover {
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    height: 300px;
+    background-color: #1f2937;
+    color: white;
+    padding: 50px 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+}
+
+.heroText {
+    margin: 5px 0 10px;
+}
+
+.signUp {
+    background-color: #db63ff;
+    padding: 5px 15px;
+    border: #5606bd solid 2px;
+    border-radius: 8px;
+    color: white;
+}
+
+.heroImg {
+    width: 300px;
+}
