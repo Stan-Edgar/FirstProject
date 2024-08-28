@@ -7,6 +7,10 @@ body {
     font-family: Roboto;
 }
 
+* {
+    font-family: Roboto;
+}
+
 .nav {
     display: flex;
     height: 70px;
@@ -67,12 +71,99 @@ h1 {
 
 .Sec {
     display: flex;
-    height: 300px;
+    height: 350px;
     flex-direction: column;
     align-items: center;
 }
 
 .Benefits {
     display: flex;
-    width: 300px;
+    width: 700px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+
+.Benefits .Feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.Icon {
+    width: 50px;
+}
+
+.TSec {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 350px;
+
+}
+
+.Testimonial {
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.Container {
+    display: flex;
+    width: 600px;
+    margin: auto;
+    flex-direction: column;
+
+}
+
+.ctaSec {
+    display: flex;
+    height: 300px;
+ 
+}
+
+.CTA {
+    display: flex;
+    margin: 90px 300px;
+    background-color: #db63ff;
+    border-radius: 5px;
+    justify-content: space-between;
+   flex: 1;
+}
+
+.Text {
+    display: flex;
+    flex-direction: row;
+    line-height: 5px;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.higher {
+margin-bottom: 0;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.P {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 400px;
+    margin-left: 200px;
+
+}
+
+.Book {
+    border-radius: 5px;
+    background-color: #db63ff;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+}
+
+.Book:Hover{
+    cursor: pointer;
 }
